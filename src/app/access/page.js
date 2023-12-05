@@ -1,11 +1,9 @@
-import Header from "./components/Header";
-import Intro from "./components/Intro";
+import Header from "../components/Header";
 
 export default function Home() {
     return (
         <div id="app">
             <Header/>
-            <Intro/>
         </div>
     )
 }
